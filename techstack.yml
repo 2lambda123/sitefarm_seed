@@ -1,0 +1,369 @@
+repo_name: 2lambda123/sitefarm_seed
+report_id: 5969e65f26ab2a9165e2f8018f436182
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:17:11+00:00'
+requested_by: 2lambda123
+provider: github
+branch: 8.x-1.x
+detected_tools_count: 32
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: Behat
+  description: A BDD framework for testing your business expectations
+  website_url: http://behat.org
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1650/7f2139b4b5176b422459c609be965b1e_400x400.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.5
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/.travis.yml
+  detection_source: libraries/photoswipe/.travis.yml
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/package.json
+  detection_source: package.json
+- name: VuePress
+  description: A static-site generator built by the Vue.js team
+  website_url: https://vuepress.vuejs.org/
+  version: 1.9.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/8863/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/package-lock.json
+  detection_source: package.json
+- name: behat/behat
+  description: Scenario-oriented BDD framework for PHP
+  package_url: https://packagist.org/behat/behat
+  version: '3.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: behat/mink
+  description: Browser controller/emulator abstraction for PHP
+  package_url: https://packagist.org/behat/mink
+  version: '1.6'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: behat/mink-extension
+  description: Mink extension for Behat
+  package_url: https://packagist.org/behat/mink-extension
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: behat/mink-goutte-driver
+  description: Goutte driver for Mink framework
+  package_url: https://packagist.org/behat/mink-goutte-driver
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: behat/mink-selenium2-driver
+  description: Selenium2
+  package_url: https://packagist.org/behat/mink-selenium2-driver
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: composer/installers
+  description: A multi-framework Composer library installer
+  package_url: https://packagist.org/composer/installers
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: cweagans/composer-patches
+  description: Provides a way to patch Composer packages
+  package_url: https://packagist.org/cweagans/composer-patches
+  version: '1.5'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: drupal/core
+  description: Drupal is an open source content management platform powering millions
+    of websites and applications
+  package_url: https://packagist.org/drupal/core
+  version: 8.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: drupal/default_content
+  description: Overview Default content gives your module and install profile a way
+    to ship default content as well as configuration
+  package_url: https://packagist.org/drupal/default_content
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: drupal/drupal-extension
+  description: Drupal extension for Behat
+  package_url: https://packagist.org/drupal/drupal-extension
+  version: '3.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: drupal/honeypot
+  description: Honeypot uses both the honeypot and timestamp methods of deterring
+    spam bots from completing forms on your Drupal site
+  package_url: https://packagist.org/drupal/honeypot
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/composer.json
+  detection_source: composer.json
+- name: grunt-autoprefixer
+  description: Parse CSS and add vendor-prefixed CSS properties using the Can I Use
+    database
+  package_url: https://www.npmjs.com/grunt-autoprefixer
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17148/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-cssmin
+  description: Minify CSS
+  package_url: https://www.npmjs.com/grunt-contrib-cssmin
+  version: 0.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16324/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-sass
+  description: Compile Sass to CSS using node-sass
+  package_url: https://www.npmjs.com/grunt-sass
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16916/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
+- name: grunt-svgmin
+  description: Minify SVG
+  package_url: https://www.npmjs.com/grunt-svgmin
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18677/default_ee6b4297c393c737b2e05ae6453ec620a6c456eb.png
+  detection_source_url: https://github.com/2lambda123/sitefarm_seed/blob/8.x-1.x/libraries/photoswipe/package.json
+  detection_source: libraries/photoswipe/package.json
